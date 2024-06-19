@@ -36,7 +36,7 @@ The client uses the RECS library for state management and syncing and React with
 
 ### Run each command in an individual CLI window
 
-### Client
+
 
 ```bash
 cd client && pnpm i && pnpm dev
