@@ -1,3 +1,5 @@
+// client/src/App.tsx
+
 import { useState } from "react";
 import "./App.css";
 import { useDojo } from "./dojo/useDojo";

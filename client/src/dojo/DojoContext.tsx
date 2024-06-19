@@ -1,3 +1,5 @@
+// client/src/dojo/DojoContext.tsx
+
 import { BurnerAccount, useBurnerManager } from "@dojoengine/create-burner";
 import { ReactNode, createContext, useContext, useMemo } from "react";
 import { Account } from "starknet";

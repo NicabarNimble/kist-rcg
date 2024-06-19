@@ -1,3 +1,5 @@
+// client/src/dojo/createClientComponents.ts
+
 import { ContractComponents } from "./generated/contractComponents";
 
 export type ClientComponents = ReturnType<typeof createClientComponents>;
