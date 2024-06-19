@@ -2,26 +2,33 @@
 
 This scaffolding sets up the basic dojo world connected to a React Vite application.
 
-Install using asdf
+## Install using asdf
+
 You can alternatively use the asdf package manager to install and manage your Dojo installation.
 
-Install asdf
+### Install asdf
 
 Follow the asdf [installation instructions](https://asdf-vm.com/guide/getting-started.html).
 
-Add the asdf-dojo plugin
+### Add the asdf-dojo plugin
 
-```
+```bash
 asdf plugin add dojo https://github.com/dojoengine/asdf-dojo
 ```
 
-Install the latest or a specific version
+### Install the latest and a specific version for the project
+
+```bash
 asdf install dojo latest # For the latest version
-asdf install dojo 0.7.0 # For a specific version
-Set the global or local version
+asdf install dojo 0.7.0-alpha.5 # For this project use this specific version
+```
+
+### Set the global and then local version for project
+
+```bash
 asdf global dojo latest # Set globally
-asdf local dojo 0.7.0 # Set locally in your project directory
-Once you're up and running, check out the Dojo Starter guide!
+asdf local dojo 0.7.0-alpha.5 # Set locally in your project directory
+```
 
 ### Client
 
