@@ -20,7 +20,7 @@ async function init() {
       <DojoProvider value={setupResult}>
         <App />
       </DojoProvider>
-    </React.StrictMode>
+    </React.StrictMode>,
   );
 }
 
