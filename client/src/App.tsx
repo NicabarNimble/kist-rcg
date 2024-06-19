@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="container mx-auto">
-      <h1 className="text-3xl text-center">Get Me a Job</h1>
+      <h1 className="text-3xl text-center">What ya going to do?</h1>
       <div className="flex justify-center py-4">
         <button
           className="px-4 py-2 border border-blue-500 bg-blue-100"
@@ -29,7 +29,7 @@ function App() {
       </div>
       {job && (
         <div className="text-xl text-center mt-4">
-          <p>Your Job: {job}</p>
+          <p>Congratulations, you're a: {job}</p>
         </div>
       )}
     </div>
