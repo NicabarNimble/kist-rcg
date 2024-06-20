@@ -22,7 +22,7 @@ function Cell({ x, y, color }: { x: number; y: number; color: string }) {
       x,
       y,
       color: BigInt(shortString.encodeShortString("white")),
-    }
+    },
   );
 
   return (
@@ -65,15 +65,15 @@ function App() {
 
   const grid = useMemo(() => {
     const tempGrid = [];
-    for (let row = 0; row < 15; row++) {
+    for (let row = 0; row < 10; row++) {
       const cols = [];
-      for (let col = 0; col < 15; col++) {
+      for (let col = 0; col < 10; col++) {
         cols.push(<Cell key={`${row}-${col}`} x={row} y={col} color={color} />);
       }
       tempGrid.push(
         <div key={row} className="flex flex-wrap">
           {cols}
-        </div>
+        </div>,
       );
     }
     return tempGrid;
@@ -111,7 +111,11 @@ function App() {
           </button>
         )}
       </div>
-      {player?.address.toString() && <div className="mx-auto p-10">{grid}</div>}
+      {player?.address.toString() && (
+        <div className="flex justify-center">
+          <div className="mx-auto p-10">{grid}</div>
+        </div>
+      )}
     </div>
   );
 }
