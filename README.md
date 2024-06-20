@@ -68,3 +68,11 @@ cd contracts/scripts
 
 ./default_auth.sh
 ```
+
+### General What's Up
+
+```bash
+cd client
+
+pnpm outdated
+```
